@@ -1,0 +1,191 @@
+.product-window{
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.product-description{
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.carousel-thumbnails{
+  background-color: #ffffff39;
+}
+
+.add-to-cart{
+  width: 60%;
+  padding: 10px;
+  background-color: rgb(3, 198, 216);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.201);
+}
+
+.add-to-cart:hover {
+  background-color: rgb(3, 161, 175);
+  color: #fff;
+}
+
+.availability-check:hover .btn-availability{
+  color: rgb(3, 198, 216);
+}
+
+.availability-check:hover .btn-payment{
+  color: rgb(3, 198, 216);
+}
+
+.about-product,
+.similiar-products{
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.section-title:hover {
+  border-bottom: 2px solid #e3e3e3;
+}
+
+@media screen and (min-width: 768px) {
+    .margin-for-con {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .costam {
+      margin-left: 5%;
+      margin-right: 5%;
+      font-weight: 100;
+    }
+  
+    .availability-check {
+      margin-top: 30px;
+      width: 90%;
+      height: 6rem;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: rgb(255, 255, 255);
+      color: #333;
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.201);
+      font-family: Roboto, sans-serif;
+    }
+  
+    .btn-availability,
+    .btn-payment {
+      background-color: rgb(254, 254, 254);
+      font-size: 1.2rem;
+      width: 30px;
+      height: 30px;
+      border: 0;
+    }
+  
+    .product-page-name {
+      margin-top: 20px;
+      font-size: 2.5rem;
+    }
+  
+    .product-page-description {
+      font-size: 1.2rem;
+    }
+  
+    .product-page-price {
+      margin-top: 30px;
+      font-size: 2rem;
+      font-weight: 600;
+      color: rgb(0, 0, 0);
+    }
+  
+    .centered-text {
+      text-align: justify;
+      margin-right: 0;
+    }
+  
+    .section-container {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-right: 0;
+    }
+  
+    .section-title {
+      font-size: 1.5rem;
+      color: #000000;
+      cursor: pointer;
+      margin-bottom: 5px;
+      border-bottom: 2px solid #e3e3e3;
+      padding-bottom: 3px;
+      transition: border-bottom 0.3s ease-in-out;
+    }
+  
+    .section-description {
+      font-size: 1rem;
+      color: #000000;
+      margin-top: 5px;
+      padding-left: 0;
+      line-height: 1.6;
+    }
+  }
+  
+  /* Styles for small screens */
+  @media screen and (max-width: 767px) {
+    .margin-for-con,
+    .costam {
+      margin: 0;
+    }
+  
+    .availability-check {
+      width: 100%;
+      height: auto;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      background-color: rgb(255, 255, 255);
+      color: #333;
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.201);
+      font-family: Roboto, sans-serif;
+    }
+  
+    .btn-availability,
+    .btn-payment {
+      font-size: 1rem;
+      background-color: rgb(254, 254, 254);
+      font-size: 1.2rem;
+      width: 30px;
+      height: 30px;
+      border: 0;
+    }
+  
+    .product-page-name {
+      font-size: 2rem;
+    }
+  
+    .product-page-description {
+      font-size: 1rem;
+    }
+  
+    .product-page-price {
+      font-size: 1.8rem;
+    }
+  
+    .centered-text,
+    .section-container {
+      margin-right: 0;
+    }
+  
+    .section-title {
+      font-size: 1.2rem;
+    }
+  
+    .section-description {
+      font-size: 0.9rem;
+    }
+  }
+  

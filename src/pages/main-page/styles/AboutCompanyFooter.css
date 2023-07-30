@@ -1,0 +1,37 @@
+.about-company{
+    background-color: rgba(3, 198, 216, 0.4);
+    color: rgb(0, 0, 0);
+}
+
+.white-text {
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icons-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-facebook,
+.btn-youtube,
+.btn-googleplaystore,
+.btn-instagram {
+  background-color: rgb(255, 255, 255);
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-facebook:hover,
+.btn-youtube:hover,
+.btn-googleplaystore:hover,
+.btn-instagram:hover {
+  color: rgb(255, 133, 81);
+}

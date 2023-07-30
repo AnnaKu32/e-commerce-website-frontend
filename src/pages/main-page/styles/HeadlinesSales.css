@@ -1,0 +1,21 @@
+.d-flex {
+    display: flex;
+  }
+  
+  .overflow-auto {
+    overflow-x: hidden;
+    white-space: nowrap;
+  }
+  
+ 
+  .head1{
+    flex: 0 0 auto;
+    background-color:rgb(255, 222, 222);
+    width: 300px; /* rgb(255, 255, 255)s needed */
+  }
+
+/* strzałki */
+.react-multi-carousel-list{
+  position: unset !important;
+}
+  

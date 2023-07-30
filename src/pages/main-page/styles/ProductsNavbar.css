@@ -1,0 +1,126 @@
+/* Common styles for all screen sizes */
+.navbar-category-products {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.nav-link-title-products {
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-link-title-products::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(155, 205, 210);
+  padding-bottom: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.nav-link-title-products:hover::after {
+  transform: scaleX(1);
+}
+
+.category-list-container-motion {
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  padding: 10px;
+  top: 100%;
+  left: 0;
+}
+
+.black-filter {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.267);
+  z-index: 1;
+}
+
+.category-list-container {
+  display: flex;
+}
+
+.image-wrapper-category {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.image-wrapper-category img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Media query for screens up to 768px wide (tablets and phones) */
+@media screen and (max-width: 768px) {
+  .navbar-category-products {
+    margin-bottom: 10px; /* Add some spacing between navbar items on mobile */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Stack navbar items vertically on mobile */
+  }
+
+  .nav-item {
+    margin-bottom: 10px; /* Add some spacing between navbar items on mobile */
+    margin-top: 0;
+  }
+
+  .navbar-center {
+    text-align: center; /* Center the searchBox on mobile */
+  }
+
+  .searchBox {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .searchInput {
+    width: 80%; /* Adjust the searchInput width on mobile */
+  }
+
+  .searchButton {
+    width: 20%; /* Adjust the searchButton width on mobile */
+  }
+
+  .navbar-right {
+    text-align: center; /* Center the navbar-right items on mobile */
+  }
+}
+
+/* Media query for screens up to 480px wide (smaller phones) */
+@media screen and (max-width: 480px) {
+
+  .nav-item {
+    margin-top: 0;
+  }
+
+  .nav-link-title-products {
+    font-size: 16px;
+  }
+
+  .category-list-container-motion {
+    padding: 5px;
+  }
+
+  .category-list-container {
+    flex-direction: column;
+  }
+
+  .image-wrapper-category {
+    height: 300px;
+  }
+}

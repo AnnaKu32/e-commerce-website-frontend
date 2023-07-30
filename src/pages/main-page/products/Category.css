@@ -1,0 +1,36 @@
+/* Common styles for all screen sizes */
+.category-wrapper {
+  margin-top: 20px;
+}
+
+.category-title {
+  color: #020202;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.subcategory-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.subcategory-list li {
+  margin-bottom: 5px;
+}
+
+/* Media query for screens up to 768px wide (tablets and phones) */
+@media screen and (max-width: 768px) {
+  .category {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

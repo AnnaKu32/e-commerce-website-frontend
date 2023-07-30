@@ -1,0 +1,73 @@
+.season-product-one,
+.season-product-two {
+  position: relative; /* Required for positioning the line */
+  box-shadow: none;
+}
+
+.season-items{
+  margin-bottom: 200px;
+}
+
+.line-product-mozaic {
+  position: absolute;
+  bottom: 0; /* Place the line at the bottom of the parent container */
+  left: 50%; /* Move the line to the center horizontally */
+  transform: translateX(-70%); /* Center the line horizontally */
+  width: 300%; /* Set the line's width to be 200% of the parent container */
+  height: 200px; /* Set the line's height */
+  background-color: rgba(27, 185, 199, 0.5); /* Set the color of the line */
+  z-index: -1;
+}
+
+.line-product-mozaic2 {
+  position: absolute;
+  bottom: 0; /* Place the line at the bottom of the parent container */
+  left: 50%; /* Move the line to the center horizontally */
+  transform: translateX(-30%); /* Center the line horizontally */
+  width: 300%; /* Set the line's width to be 200% of the parent container */
+  height: 200px; /* Set the line's height */
+  background-color: rgba(27, 185, 199, 0.5); /* Set the color of the line */
+  z-index: -1;
+}
+
+.product-mozaic{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* animacja */
+.animated-element {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.animated-element.visible {
+  opacity: 1;
+}
+
+.product-mozaic {
+  position: relative;
+}
+
+.headline-prod-mozaic {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+  .season-product-one,
+  .season-product-two {
+    box-shadow: none;
+  }
+
+  .line-product-mozaic,
+  .line-product-mozaic2 {
+    width: 200%;
+    transform: translateX(-50%);
+  }
+}

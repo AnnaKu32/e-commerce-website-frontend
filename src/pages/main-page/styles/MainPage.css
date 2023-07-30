@@ -1,0 +1,25 @@
+.main-page-container {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+  .main-page-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* lista pod kategori on main page */
+
+.products-navbar-container {
+  position: relative;
+}
+  
+
+
+
+
+  

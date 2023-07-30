@@ -1,0 +1,47 @@
+.season-items-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headline-prod-col {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+}
+
+.headline-prod {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.215);
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.container-image-prod {
+  height: 31.25rem;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.new-collection-main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s;
+  transform: scale(1.10);
+}
+
+.container-image-prod:hover {
+  transform: scale(1.03);
+}
+
+.display {
+  margin-top: 1.875rem;
+}
+
+/* Media query for screens up to 768px wide (tablets and phones) */
+@media screen and (max-width: 768px) {
+  .headline-prod-col {
+    flex-direction: column; 
+  }
+}

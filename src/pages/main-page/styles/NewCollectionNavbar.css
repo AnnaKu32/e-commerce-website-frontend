@@ -1,0 +1,38 @@
+.new-collection {
+  position: relative;
+  padding: 0;
+  text-align: center;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../assets/images/new-collection-img.jpg');
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.lead,
+.display-4{
+  font-weight: normal;
+}
+
+.show-more-button{
+  padding: 10px;
+  background-color: rgb(255, 133, 81);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.show-more-button:hover {
+  background-color: rgb(207, 107, 64);
+}
+

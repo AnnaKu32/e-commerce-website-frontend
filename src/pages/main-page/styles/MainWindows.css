@@ -1,0 +1,28 @@
+.main-campaign-windows {
+  width: 100%;
+}
+
+.image-container-main-carousel {
+  width: 100%;
+}
+
+.image-wrapper {
+  position: relative;
+  background-color: aqua;
+}
+
+.image-wrapper img {
+  width: auto;
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .image-wrapper img {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+  }
+}
+

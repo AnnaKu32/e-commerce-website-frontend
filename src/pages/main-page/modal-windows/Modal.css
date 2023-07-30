@@ -1,0 +1,85 @@
+.col-6 {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: rgb(3, 200, 218, 0.5);
+}
+
+input[type="username"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+}
+
+/* signin CSS */
+.sign-in-title {
+  margin-bottom: 20px;
+}
+
+.login-button{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(3, 198, 216);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* register CSS */
+
+.register-title {
+  margin-bottom: 20px;
+}
+.register-subtitle{
+  padding-top: 5px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.register-content {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.register-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(3, 198, 216);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
