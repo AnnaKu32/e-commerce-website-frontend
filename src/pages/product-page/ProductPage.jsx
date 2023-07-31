@@ -58,10 +58,7 @@ const ProductPage =  () => {
           <ProductsNavbar />
         </div>
 
-        <div className='margin-for-con'>
-
-          <p className = "costam my-4 "> -------------------- </p>
-
+        <div className='margin-for-con py-5'>
           <div className='product-window my-4 '>
             <div className='row d-flex justify-content-between flex-wrap'>
               <div className="col-7 carousel-thumbnails">

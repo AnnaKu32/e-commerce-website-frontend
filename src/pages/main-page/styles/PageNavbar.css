@@ -26,7 +26,6 @@
   justify-content: flex-end;
 }
 
-/* okno wyszukiwania */
 .searchBox {
   position: relative;
   display: flex;
@@ -76,8 +75,6 @@ color : rgb(45, 45, 45);
   width: 0px;
 }
 
- 
-/* przyciski */
 .btn-login,
 .btn-basket,
 .btn-liked {
@@ -96,7 +93,6 @@ color : rgb(45, 45, 45);
   color: rgb(3, 198, 216);
 }
 
-/* okno logowanie/rejestracji */
 .modal {
   display: flex;
   align-items: center;
@@ -132,20 +128,18 @@ color : rgb(45, 45, 45);
   cursor: pointer;
 }
 
-/* Media query for screens 767px (phones) */
+
 @media screen and (max-width: 767px) {
   .navbar {
     flex-direction: column;
     align-items: center;
   }
 
-  /* Move navbar-center below navbar-left */
   .navbar-center {
     order: 2;
     margin-top: 10px;
   }
 
-  /* Move navbar-right below navbar-center */
   .navbar-right {
     order: 3;
     margin-top: 10px;

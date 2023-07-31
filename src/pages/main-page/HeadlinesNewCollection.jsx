@@ -10,7 +10,7 @@ const HeadlinesNewCollection = () => {
   return (
     <div className="season-items py-5">
       <div className="row">
-        <h2 className="season-items-headline">Trendy w makijażu w 2023</h2>
+        <h1 className="season-items-headline">Makeup trends in 2023</h1>
           <div className="col justify-content-center d-flex">
 
               <div className="headline-prod text-center overflow-hidden">
@@ -18,8 +18,8 @@ const HeadlinesNewCollection = () => {
                     <div className ="container-image-prod">
                       <img className = "new-collection-main-image" src={newCollection_mainImage1} alt="Image1"/>
                     </div>
-                    <h2 className="display">Powrót do natury</h2>
-                    <p className="lead">Stawianie na produkty przyjazne naturze</p>
+                    <h2 className="display">Back to Nature</h2>
+                    <p className="lead">Focus on nature-friendly products</p>
                   </div>
               </div>
             
@@ -29,8 +29,8 @@ const HeadlinesNewCollection = () => {
               <div className ="container-image-prod">
                     <img className = "new-collection-main-image" src={newCollection_mainImage3} alt="Image2"/>
                   </div>
-                <h2 className="display">Korektory</h2>
-                <p className="lead">Nowe korektory firmy Glowy z bławatkiem</p>
+                <h2 className="display">Makeup concealers</h2>
+                <p className="lead">New Cornflower Correctors from Glowy</p>
               </div>
 
             </div>
@@ -40,8 +40,8 @@ const HeadlinesNewCollection = () => {
                 <div className ="container-image-prod">
                   <img className = "new-collection-main-image" src={newCollection_mainImage2} alt="Image3"/>
                 </div>
-                <h2 className="display">Minimalizm</h2>
-                <p className="lead">Minimalizm nowym maksymalizmem</p>
+                <h2 className="display">Minimalism</h2>
+                <p className="lead">Minimalism is the new maximalism</p>
             </div>
            
           </div>

@@ -12,14 +12,14 @@ import { IoLogoGooglePlaystore } from 'react-icons/io5';
 
 const AboutCompanyFooter = () => {
     return (
-      <div className="about-company">
+      <div className="about-company py-5">
         <footer className="container">
           <div className="row">
             <div className="col-2">
-              <p> <IoMail/> Napisz do nas</p>
+              <p> <IoMail/> Contact us </p>
               <small className="d-block mb-3 text-muted">info-client@sunny.com</small>
 
-              <p> <IoCall /> Zadzwoń</p>
+              <p> <IoCall /> Call us </p>
               <small className="d-block mb-3 text-muted">+48 678 456 789</small>
             </div>
             <div className="col-2 mb-3">
@@ -27,8 +27,8 @@ const AboutCompanyFooter = () => {
               <ul className="list-unstyled text-small white-text">
                 <li><a className="text-muted" href="#">About us</a></li>
                 <li><a className="text-muted" href="#">Carier</a></li>
-                <li><a className="text-muted" href="#">Zostań Partnerem</a></li>
-                <li><a className="text-muted" href="#">Kontakt</a></li>
+                <li><a className="text-muted" href="#">Become a Business Partner</a></li>
+                <li><a className="text-muted" href="#">Contact</a></li>
                 <li><a className="text-muted" href="#">Company values</a></li>
               </ul>
             </div>

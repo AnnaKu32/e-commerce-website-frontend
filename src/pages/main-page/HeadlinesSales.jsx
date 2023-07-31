@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
 
-import ProductSale from './products/ProductSale';
+import Product from './products/Product';
 
 const HeadlinesSales = () => {
   const responsive = {
@@ -30,7 +30,7 @@ const HeadlinesSales = () => {
   
   return(
     <div className="bestsellers-window py-5" >
-    <h2>Sale</h2>
+    <h1>Sale</h1>
     <Carousel 
      swipeable={true}
      draggable={true}
@@ -39,14 +39,14 @@ const HeadlinesSales = () => {
      responsive={responsive}
      removeArrowOnDeviceType={["tablet", "mobile"]}
     >
-      <ProductSale />
-      <ProductSale />
-      <ProductSale />
-      <ProductSale />
-      <ProductSale />
-      <ProductSale />
-      <ProductSale />
-      <ProductSale />
+      <Product productId={1} showSalePrice regularPrice={35.00}/>
+      <Product productId={1} showSalePrice regularPrice={35.00}/>
+      <Product productId={1} showSalePrice regularPrice={35.00}/>
+      <Product productId={1} showSalePrice regularPrice={35.00}/>
+      <Product productId={1} showSalePrice regularPrice={35.00}/>
+      <Product productId={1} showSalePrice regularPrice={35.00}/>
+      <Product productId={1} showSalePrice regularPrice={35.00}/>
+      <Product productId={1} showSalePrice regularPrice={35.00}/>
 
     </Carousel>
     </div>

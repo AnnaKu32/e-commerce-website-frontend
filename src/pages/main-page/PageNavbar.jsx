@@ -60,15 +60,12 @@ const PageNavbar = () => {
             <button className="btn-basket btn-primary rounded-circle m-2 border-0" type="button">
               <IoBasketOutline className="icon"/>
             </button>
-
+            
             <button className="btn-liked btn-danger rounded-circle m-2 border-0" type="button">
               <IoHeartOutline className="icon"/>
             </button>
           </div>
         </div>
-
-          
-
         </div>
     </nav>
   );

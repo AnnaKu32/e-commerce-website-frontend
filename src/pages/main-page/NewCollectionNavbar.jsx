@@ -9,7 +9,7 @@ const NewCollectionNavbar = () => {
   }
   
   return (
-    <div className="new-collection position-relative overflow-hidden py-5  text-center">
+    <div className="new-collection position-relative overflow-hidden py-5 text-center">
       <div className="col-md-5 p-lg-5 mx-auto my-5">
         <h1 className="display-4 font-weight-normal">New Sunny Cosmetics Collection</h1>
         <p className="lead font-weight-normal">Make yourself shiny and glowy within new summer collection</p>

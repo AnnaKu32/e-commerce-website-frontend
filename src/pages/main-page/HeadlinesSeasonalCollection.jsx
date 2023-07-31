@@ -10,8 +10,8 @@ const HeadlinesSeasonalCollection = () => {
   return (
     <div className="season-items py-5">
       <div className="row season-items-row">
-        <h2 className="season-items-headline">Sezonowe kosmetyki</h2>
-          <div className="col justify-content-center d-flex">
+        <h1 className="season-items-headline">Seasonal cosmetics</h1>
+          <div className="col season-items-col justify-content-center d-flex">
 
             <div className="col-4 mx-2 my-2 headline-prod-col">
               <div className="headline-prod text-center overflow-hidden">
@@ -19,8 +19,8 @@ const HeadlinesSeasonalCollection = () => {
                   <div className ="container-image-prod">
                     <img className = "new-collection-main-image" src={newCollection_mainImage1} alt="Image1"/>
                   </div>
-                  <h2 className="display">Pomarańcza</h2>
-                  <p className="lead">Kolekcja zainpirowana pomarańczami</p>
+                  <h2 className="display">Oranges</h2>
+                  <p className="lead">Collection inspired by oranges</p>
                 </div>
               </div>
             </div> 
@@ -31,8 +31,8 @@ const HeadlinesSeasonalCollection = () => {
                   <div className ="container-image-prod">
                     <img className = "new-collection-main-image" src={newCollection_mainImage3} alt="Image2"/>
                   </div>
-                  <h2 className="display">Ciało latem</h2>
-                  <p className="lead">Zobacz nasze włosowe propozycje na lato</p>
+                  <h2 className="display">Summer body</h2>
+                  <p className="lead">See our suggestions for the summer</p>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ const HeadlinesSeasonalCollection = () => {
                     <img className = "new-collection-main-image" src={newCollection_mainImage2} alt="Image3"/>
                   </div>
                   <h2 className="display">SPF</h2>
-                  <p className="lead">Wybór SPF 50+</p>
+                  <p className="lead">Selection of SPF 50+</p>
               </div>
             </div>
            
