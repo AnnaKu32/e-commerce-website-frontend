@@ -30,7 +30,7 @@ const HeadlinesSales = () => {
   
   return(
     <div className="bestsellers-window py-5" >
-    <h1>Sale</h1>
+    <h1 className='bestsellers-window-title'>Sale</h1>
     <Carousel 
      swipeable={true}
      draggable={true}

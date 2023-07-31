@@ -27,7 +27,7 @@ const ProductsNavbar = () => {
 
           <li className="nav-item" onMouseEnter={() => handleMouseEnter('New products')} onMouseLeave={handleMouseLeave}>
             <div className="nav-link-title-products" id="makeup-link">
-              <p style={{ color: 'rgb(255, 133, 81)' }}>New products</p>
+              <p style={{ color: 'rgb(3, 198, 216)' }}>New products</p>
             </div>
 
             {hoveredCategory  === 'New products' && (
@@ -402,7 +402,7 @@ const ProductsNavbar = () => {
 
           <li className="nav-item" onMouseEnter={() => handleMouseEnter('Sale')} onMouseLeave={handleMouseLeave}>
             <div className="nav-link-title-products" id="makeup-link" >
-              <p style={{ color: "red" }}>Sale</p>
+              <p style={{ color: "rgb(255, 133, 81)" }}>Sale</p>
             </div>
           </li>
         </ul>

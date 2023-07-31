@@ -9,7 +9,8 @@
   max-width: 33.3333%;
 }
 
-.season-items-col{
+.season-items-col,
+.season-items-headline{
   font-family:'Lato';
 }
 

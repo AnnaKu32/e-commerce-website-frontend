@@ -30,7 +30,7 @@ const ProductPage =  () => {
 
   const sections = [
     { id: 2, title: 'Ingredients', description: 'Aqua, Glycerin, Cococaprylate/Caprate, Propanediol, Diisooctyl Succinate, Squalane, Sucrose Polystearate, Punica Granatum Seed Oil, Cetearyl Alcohol, Ascorbyl Tetraisopalmitate, Rosa Canina Fruit Oil, Benzyl Alcohol, Helianthus Annuus Seed Oil, Hylocereus Undatus Fruit Extract, Xanthan Gum, Glycogen, Sodium Dehydroacetate, Hydrolyzed Lupine Protein, Sodium Hyaluronate, Sodium Stearoyl Glutamate, Hippophae Rhamnoides Oil, Citric Acid, Olea Europaea Oil Unsaponifiables, Magnesium Ascorbyl Phosphate, Dehydroacetic Acid, Terminalia Ferdinandiana Fruit Extract, Rosmarinus Officinalis Leaf Extract, Parfum, Citrus Aurantium Amara Flower Extract, Linalool, Limonene, Geraniol, Benzoic Acid, Sodium Hydroxide.' },
-    { id: 3, title: 'How to use', description: 'Massage in a circular, upward motion until fully absorbed'},
+    { id: 3, title: 'How to use', description: 'Apply to lips and powder'},
   ];
 
   const handleSectionClick = (id) => {
@@ -98,11 +98,11 @@ const ProductPage =  () => {
                         style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}
                       >
                         {section.title}
-                        <div className="container-arrow">
+                        {/* <div className="container-arrow">
                           <i className="arrow-icon">
                             <IoCaretDownOutline />
                           </i>
-                        </div>
+                        </div> */}
                       </h2>
                       <AnimatePresence>
                         {openSections.includes(section.id) && (

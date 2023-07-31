@@ -14,6 +14,9 @@ import HeadlinesSales from './HeadlinesSales';
 import ProductMozaic from './ProductMozaic';
 import AboutCompanyFooter from './AboutCompanyFooter';
 
+
+// kolory rgb(255, 133, 81) - pomarańcza
+// kolory rgb(3, 198, 216) - niebieski
 const MainPage = () => {
   
   //TODO: fog effect

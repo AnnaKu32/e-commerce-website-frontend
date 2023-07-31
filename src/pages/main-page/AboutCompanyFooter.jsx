@@ -17,10 +17,10 @@ const AboutCompanyFooter = () => {
           <div className="row">
             <div className="col-2">
               <p> <IoMail/> Contact us </p>
-              <small className="d-block mb-3 text-muted">info-client@sunny.com</small>
+              <p className="d-block mb-3 text-muted">info-client@sunny.com</p>
 
               <p> <IoCall /> Call us </p>
-              <small className="d-block mb-3 text-muted">+48 678 456 789</small>
+              <p className="d-block mb-3 text-muted">+48 678 456 789</p>
             </div>
             <div className="col-2 mb-3">
               <h5>About</h5>

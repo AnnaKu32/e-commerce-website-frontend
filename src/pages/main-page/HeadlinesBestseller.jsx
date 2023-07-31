@@ -28,7 +28,7 @@ const HeadlinesBestseller = () => {
   };
   return(
     <div className="bestsellers-window py-5" >
-    <h1>Bestsellers</h1>
+    <h1 className="bestsellers-window-title">Bestsellers</h1>
     <Carousel responsive={responsive}>
       <Product />
       <Product />

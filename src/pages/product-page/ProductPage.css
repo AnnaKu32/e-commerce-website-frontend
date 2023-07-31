@@ -1,3 +1,7 @@
+.margin-for-con{
+  font-family:'Lato';
+}
+
 .product-window{
   background-color: rgb(255, 255, 255);
   justify-content: center;
@@ -5,7 +9,7 @@
 
 .product-description{
   background-color: rgba(255, 255, 255, 0.2);
-  font-family:'Roboto', sans-serif;
+  font-family:'Lato';
   font-weight: 300;
 }
 
@@ -42,6 +46,7 @@
 .similiar-products{
   margin-top: 50px;
   font-size: 30px;
+  font-family:'Lato';
 }
 
 .section-title:hover {
@@ -53,13 +58,7 @@
       margin-left: 5%;
       margin-right: 5%;
     }
-  
-    .costam {
-      margin-left: 5%;
-      margin-right: 5%;
-      font-weight: 100;
-    }
-  
+
     .availability-check {
       margin-top: 30px;
       width: 90%;
