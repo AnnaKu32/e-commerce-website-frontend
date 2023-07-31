@@ -85,8 +85,6 @@ const ProductsNavbar = () => {
                   initial={{ opacity: 0, x: -30 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.1 }}
-                  onMouseEnter={() => handleMouseEnter('Makeup')}
-                  onMouseLeave={handleMouseLeave}
                 >
 
                 <div className="category-list-container">
