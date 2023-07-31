@@ -37,6 +37,9 @@ const MainPage = () => {
           <ProductMozaic />
         </div>
         <AboutCompanyFooter />
+        <div style={{fontSize:20, color: "grey"}}>
+          <p> Credit for all images: https://www.freepik.com/</p>
+        </div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import './styles/HeadlinesNewCollection.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import newCollection_mainImage1 from '../../assets/images/headline1.jpg';
-import newCollection_mainImage2 from '../../assets/images/headline2 .jpg';
+import newCollection_mainImage2 from '../../assets/images/headline2.jpg';
 import newCollection_mainImage3 from '../../assets/images/headline3.jpg';
 
 const HeadlinesSeasonalCollection = () => {
@@ -19,8 +19,8 @@ const HeadlinesSeasonalCollection = () => {
                   <div className ="container-image-prod">
                     <img className = "new-collection-main-image" src={newCollection_mainImage1} alt="Image1"/>
                   </div>
-                  <h2 className="display">Oranges</h2>
-                  <p className="lead">Collection inspired by oranges</p>
+                  <h2 className="display">Grapefruits</h2>
+                  <p className="lead">Collection inspired by grapefruit</p>
                 </div>
               </div>
             </div> 

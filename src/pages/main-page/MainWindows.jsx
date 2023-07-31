@@ -6,8 +6,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 import carousel_image from '../../assets/images/main1-new.jpg';
-import carousel_image2 from '../../assets/images/main2-new.jpg';
-import carousel_image3 from '../../assets/images/main3.jpg';
+import carousel_image3 from '../../assets/images/main2-new.jpg';
+import carousel_image2 from '../../assets/images/main3-new.jpg';
 
 const MainWindows = () => {
   return (
