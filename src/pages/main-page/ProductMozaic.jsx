@@ -61,7 +61,7 @@ const ProductMozaic = () => {
   }, [inViewThree]);
 
   return (
-    <div className="container-fluid windows-items">
+    <div className="container-fluid windows-items py-5">
 
       <motion.div
         ref={refOne}
