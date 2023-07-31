@@ -1,6 +1,6 @@
 .category-wrapper{
   padding: 20px;
-  font-family: Roboto, sans-serif;
+  font-family:'Lato';
 }
 
 .category-title {
@@ -20,8 +20,9 @@
 .product {
   color: rgb(0, 0, 0);
   font-family: sans-serif;
-  text-decoration: none;
+  font-family:'Lato';
   font-size: 15px;
+  text-decoration: none;
   margin-bottom: 20px;
 }
 

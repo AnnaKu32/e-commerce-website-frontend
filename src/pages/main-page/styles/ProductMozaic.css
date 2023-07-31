@@ -4,8 +4,9 @@
   box-shadow: none;
 }
 
-.season-items{
+.windows-items{
   margin-bottom: 200px;
+  font-family:'Lato';
 }
 
 .line-product-mozaic {
@@ -15,8 +16,9 @@
   transform: translateX(-70%);
   width: 300%; 
   height: 200px; 
-  background-color: rgba(27, 185, 199, 0.5); 
+  background-color: rgba(220, 130, 20, 0.5); 
   z-index: -1;
+  border-radius: 5px;
 }
 
 .line-product-mozaic2 {
@@ -26,8 +28,9 @@
   transform: translateX(-30%); 
   width: 300%; 
   height: 200px; 
-  background-color: rgba(27, 185, 199, 0.5);
+  background-color: rgba(220, 130, 20, 0.5); 
   z-index: -1;
+  border-radius: 5px;
 }
 
 .product-mozaic{
@@ -45,6 +48,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 .animated-element {
@@ -62,13 +66,12 @@
 
 .headline-prod-mozaic {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   left: 0;
   right: 0;
   text-align: center;
 }
-
 
 @media (max-width: 767px) {
   .season-product-one,

@@ -5,9 +5,10 @@
 }
   
 .navbar-brand {
-  color: rgb(3, 198, 216);
-  font-family: Georgia, serif;
-  font-size: 30px;
+  color: rgb(92, 48, 0);
+  font-family:'REM';
+  font-size: 40px;
+  font-weight: 500;
 }
 
 .navbar-left {

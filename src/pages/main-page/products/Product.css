@@ -13,6 +13,8 @@
 .product-category{
   color: rgb(0, 0, 0);
   text-decoration: none;
+  font-family:'Lato';
+  font-weight: 500;
 }
 
 .flex-image {
@@ -23,11 +25,13 @@
 
 .product-price{
   font-weight: bold;
+  font-family:'Lato';
   color: rgb(85, 85, 85);
 }
 
 .product-price-sale{
   font-weight: bold;
+  font-family:'Lato';
   color: rgb(255, 3, 3);
 }
 

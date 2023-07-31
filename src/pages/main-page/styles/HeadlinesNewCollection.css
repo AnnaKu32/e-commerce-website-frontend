@@ -1,6 +1,7 @@
 .season-items-row {
   display: flex;
   flex-wrap: wrap;
+  font-family:'Lato';
 }
 
 .headline-prod-col {
@@ -9,7 +10,7 @@
 }
 
 .season-items-col{
-  font-family: Roboto, sans-serif;
+  font-family:'Lato';
 }
 
 .headline-prod {

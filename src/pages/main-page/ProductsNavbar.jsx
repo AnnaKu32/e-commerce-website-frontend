@@ -21,7 +21,7 @@ const ProductsNavbar = () => {
   };
 
   return (
-    <nav className="navbar-category-products navbar-expand-lg">
+    <nav className="navbar-category-products navbar-expand-lg pt-2">
       <div className="container container-category-products">
         <ul className="navbar-nav d-flex justify-content-between flex-wrap">
 
@@ -405,13 +405,6 @@ const ProductsNavbar = () => {
               <p style={{ color: "red" }}>Sale</p>
             </div>
           </li>
-
-          <li className="nav-item" onMouseEnter={() => handleMouseEnter('Service')} onMouseLeave={handleMouseLeave}>
-            <div className="nav-link-title-products" id="makeup-link">
-              Service
-            </div>
-          </li>
-
         </ul>
       </div>
     </nav>

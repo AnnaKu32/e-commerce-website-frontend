@@ -6,6 +6,7 @@
   position: relative;
   font-weight: 600;
   font-size: 18px;
+  font-family:'Lato';
 }
 
 .nav-link-title-products::after {

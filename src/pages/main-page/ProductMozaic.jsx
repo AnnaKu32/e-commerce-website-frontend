@@ -61,7 +61,7 @@ const ProductMozaic = () => {
   }, [inViewThree]);
 
   return (
-    <div className="container-fluid season-items">
+    <div className="container-fluid windows-items">
 
       <motion.div
         ref={refOne}
@@ -95,8 +95,8 @@ const ProductMozaic = () => {
           <div className="col-6 product-mozaic">
             <div className="headline-prod-mozaic text-center overflow-hidden">
               <div className="my-3 py-3">
-                <h2 className="display">Zapach oceanu z nową serią marki Perfume</h2>
-                <p className="lead">Odkryj połączenie kwiatu jaśminu z solą morską</p>
+                <h2 className="display">The smell of the ocean with the new series of Perfume</h2>
+                <p className="lead">Discover the combination of sea salt and jasmine flower</p>
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@ const ProductMozaic = () => {
           <div className="col-6 product-mozaic">
             <div className="headline-prod-mozaic text-center overflow-hidden">
               <div className="my-3 py-3">
-                <h2 className="display">Wyciąg z palmy jako nowy składnik kosmetyków</h2>
+                <h2 className="display">Wyciąg z ry jako nowy składnik kosmetyków</h2>
                 <p className="lead">Zobacz co daje wyciąg z palmy</p>
               </div>
             </div>
