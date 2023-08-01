@@ -3,8 +3,8 @@ import './styles/HeadlinesNewCollection.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import newCollection_mainImage1 from '../../assets/images/headline1.jpg';
-import newCollection_mainImage2 from '../../assets/images/headline2.jpg';
-import newCollection_mainImage3 from '../../assets/images/headline3.jpg';
+import newCollection_mainImage3 from '../../assets/images/headline2.jpg';
+import newCollection_mainImage2 from '../../assets/images/headline3.jpg';
 
 const HeadlinesSeasonalCollection = () => {
   return (

@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import makeupCategory from '../../assets/images/makeup-category.jpg';
 
 import Category from './products/Category';
+import ProductModal from './products/ProductModal';
 
 const ProductsNavbar = () => {
 
@@ -26,6 +27,7 @@ const ProductsNavbar = () => {
         <ul className="navbar-nav d-flex justify-content-between flex-wrap">
 
           <li className="nav-item" onMouseEnter={() => handleMouseEnter('New products')} onMouseLeave={handleMouseLeave}>
+            
             <div className="nav-link-title-products" id="makeup-link">
               <p style={{ color: 'rgb(3, 198, 216)' }}>New products</p>
             </div>
@@ -38,34 +40,39 @@ const ProductsNavbar = () => {
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.1 }}
-                onMouseEnter={() => handleMouseEnter('New products')}
-                onMouseLeave={handleMouseLeave}
               >
 
               <div className="category-list-container">
-                <div className='row'>
-
-                  <div className='col-4'> 
-                    <div className="image-wrapper-category-new-products">
-                      <img src={makeupCategory} alt="makeup-category-image" />
-                    </div>  
+                  <Category
+                    title="Seasonal"
+                    subcategories={[
+                      'SPF',
+                      'BB & CC Creams',
+                      'Face Sets'
+                    ]}
+                  />
+                  <Category
+                    title="Shop new"
+                    subcategories={[
+                      'Hydrating Foundations',
+                      'Setting Powder',
+                      'Face Sets'
+                    ]}
+                  />
+                  
+                  <div className="image-wrapper-category-new-products">
+                    <div className="product-resize">
+                      <ProductModal />
+                    </div>
                   </div>
 
-                  <div className='col-4'> 
-                    <div className="image-wrapper-category-new-products">
-                      <img src={makeupCategory} alt="makeup-category-image" />
-                    </div>  
-                  </div>
-
-                  <div className='col-4'> 
-                    <div className="image-wrapper-category-new-products">
-                      <img src={makeupCategory} alt="makeup-category-image" />
-                    </div>  
+                  <div className="image-wrapper-category-new-products">
+                    <div className="product-resize">
+                      <ProductModal />
+                    </div>
                   </div>
 
                 </div>
-              </div>
-
               </motion.div>
             </div>
             )}
@@ -402,7 +409,32 @@ const ProductsNavbar = () => {
             <div className="nav-link-title-products" id="makeup-link" >
               <p style={{ color: "rgb(255, 133, 81)" }}>Sale</p>
             </div>
+            {hoveredCategory  === 'Sale' && (
+              <div>
+              <div className="black-filter"></div>
+              <motion.div
+                className="category-list-container-motion"
+                initial={{ opacity: 0, x: -30 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.1 }}
+              >
+
+              <div className="category-list-container">
+                  <Category
+                    title="Sale"
+                    subcategories={[
+                      'SPF -50% off',
+                      'Deep Conditioning Mask',
+                      'Body Sprays'
+                    ]}
+                  />
+                  
+                </div>
+              </motion.div>
+            </div>
+            )}
           </li>
+
         </ul>
       </div>
     </nav>

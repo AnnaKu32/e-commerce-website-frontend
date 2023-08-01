@@ -37,8 +37,9 @@ const MainPage = () => {
           <ProductMozaic />
         </div>
         <AboutCompanyFooter />
-        <div style={{fontSize:20, color: "grey"}}>
-          <p> Credit for all images: https://www.freepik.com/</p>
+        <div style={{fontSize:15, color: "grey"}}>
+          <p> Credit for all images: https://www.freepik.com</p>
+          <p> Shop icon author: Creatype - https://www.freepik.com</p>
         </div>
     </div>
   );

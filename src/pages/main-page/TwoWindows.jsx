@@ -7,7 +7,7 @@ import red_lipstick_mask from '../../assets/images/red-lipstick.jpg';
 
 const TwoWindows = () => {
   return (
-    <div className="news-windows ">
+    <div className="news-windows py-5">
       <div className="news-windows-row">
         <div className="col-7 headline-news-windows-col-2 overflow-hidden">
             <div className="container-image-prodt">

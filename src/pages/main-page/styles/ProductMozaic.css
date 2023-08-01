@@ -2,7 +2,6 @@
 .season-product-two {
   position: relative;
   box-shadow: none;
-  overflow-x: hidden;
 }
 
 .windows-items{
@@ -44,6 +43,7 @@
   max-width: 100%;
   height: auto;
   max-height: 500px;
+  cursor: pointer;
 }
 
 .season-product-image img {
@@ -73,6 +73,7 @@
   left: 0;
   right: 0;
   text-align: center;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {

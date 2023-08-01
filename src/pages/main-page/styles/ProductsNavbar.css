@@ -61,22 +61,19 @@
   object-fit: cover;
 }
 
-.image-wrapper-category-new-products{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.image-wrapper-category-new-products {
+  flex: 1;
   width: 100%;
   height: 400px;
   overflow: hidden;
-  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.image-wrapper-category-new-products img {
+.product-resize Product {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
