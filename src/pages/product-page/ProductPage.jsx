@@ -83,9 +83,10 @@ const ProductPage =  () => {
 
                 <div>
                   <p className= "about-product"> About product</p>
-                    <p class="centered-text"> Odkryj zupełnie nowe, winylowe wykończenie ust ze szminką Super Stay Vinyl Ink od Maybelline New York!
-                    Ta płynna szminka zapewnia długotrwały połysk, niczym lakier do ust. Intensywny kolor utrzymuje się aż do 16h*, nie rozmazuje się i nie ściera.
-                    Formuła wzbogacona o aloes i witaminę E zapewnia komfort noszenia. Intensywny kolor. To szminka, która zmienia reguły gry!
+                    <p class="centered-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium velit ex, volutpat rutrum diam cursus sit amet. In nunc urna, commodo vel mi eu, 
+                      placerat porttitor tortor. Integer eget dignissim quam, egestas tincidunt justo. Donec placerat orci sit amet interdum rutrum. 
+                      Etiam vitae ex eleifend, accumsan ipsum ut, posuere libero. Maecenas at quam in leo finibus venenatis a quis nunc. 
+                      Suspendisse vitae consectetur ex. Sed fermentum interdum consectetur.
                     </p>
                 </div>
         
